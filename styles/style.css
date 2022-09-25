@@ -7,4 +7,72 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#06365f+0,2989d8+50,ffffff+50,ffffff+50,ffffff+51,ffffff+52,ffffff+100 */
+background: #06365f; /* Old browsers */
+background: -moz-linear-gradient(top,  #06365f 0%, #2989d8 50%, #ffffff 50%, #ffffff 50%, #ffffff 51%, #ffffff 52%, #ffffff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #06365f 0%,#2989d8 50%,#ffffff 50%,#ffffff 50%,#ffffff 51%,#ffffff 52%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #06365f 0%,#2989d8 50%,#ffffff 50%,#ffffff 50%,#ffffff 51%,#ffffff 52%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#06365f', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+
+
 }
+#mainContainer {
+  display: grid;
+  grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% ;
+  grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% ;
+  
+}
+#section1{
+  display:flex;
+
+  grid-column:2 ;
+  grid-row-start: 2;
+}
+#section2{
+  display:flex;
+  grid-column:4 ;
+  grid-row-start: 2;
+}
+#section3{
+  display:flex;
+  grid-column:6;
+  grid-row-start: 2;
+ 
+}
+h2{
+  padding-top: 0;
+  color:#06365f;
+}
+#section4{
+  
+
+  grid-column-start:4 ;
+  grid-column-end:7 ;
+  grid-row-start: 3;
+  grid-row-end: 6;
+  padding:40px;
+  background-color: white;
+  border-top:solid 1px black;
+  border-left:solid 1px black;
+  border-right:solid 1px black ;
+  padding-top: 0;
+  display: flex;
+}
+
+span{
+  font-weight: bold;
+ 
+}
+
+
+#footer{
+  grid-column-start:3 ;
+  grid-column-end: 7;
+  grid-row-start: 7;
+}
+#footer button{
+
+}
+/* no añado media queries,porque realmente todavía no se utilizarlos correctamente, lo he intentado, pero no veo modificaciones*/ 
+
